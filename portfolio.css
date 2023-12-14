@@ -1,0 +1,103 @@
+
+header{text-align:center;}
+.gallery-grid{
+    display:grid;
+    place-items: center;
+    grid-row:1/20;
+    grid-column:2/12;
+    gap:20vh;
+    grid-template-areas: "img img"
+    "img img"
+    "img img"
+    "img img";
+    grid-template-rows: 50vh 50vh 50vh 50vh;
+    grid-template-columns: 50vh 50vh;
+    margin:auto;
+}
+.gallery-grid img{
+    width:50vh;
+    height:50vh;
+    object-fit:cover;
+
+}
+
+
+
+
+h1{
+    font-family: "atrament", sans-serif;
+    font-size: 256px;
+    display:inline;
+    font-weight:normal;
+}
+h2{
+    font-family: "atrament", sans-serif;
+    font-size:144px;
+    display:inline;
+}
+h3{
+    font-family: "atrament", sans-serif;
+    font-size:128px;
+    font-weight:normal;
+    display:inline;
+}
+h4{
+    font-family: "atrament", sans-serif;
+    font-size:64px;
+    font-weight:normal;
+    display:inline;
+}
+
+h5{
+    font-family: "atrament", sans-serif;
+    font-size:32px;
+    font-weight:normal;
+    display:inline;
+}
+h5{
+    font-family: "atrament", sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    display:inline;
+}
+
+p{
+    font-family: "bonnie", sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    display:inline;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns: repeat(12,0.5fr);
+    grid-template-rows: repeat(30,0.5fr);
+    gap: 10px;
+}
+a{
+    font-family: "atrament", sans-serif;
+    font-size:32px;
+    font-weight:normal;
+    text-decoration: none;
+    color:black
+}
+a:hover{
+color: #ff982b
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: #FFCF88;
+    text-align: center;
+    line-height:3;
+
+    position:fixed;
+}
+.nav-links{
+    overflow:auto;
+}
+
+.nav-links a{
+    width: 20%;
+    float:left;
+}

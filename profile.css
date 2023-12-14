@@ -1,0 +1,121 @@
+
+nav{
+    grid-row:1/2;
+    grid-column:1/13;
+}
+header{
+    grid-row: 2/3;
+    grid-column: 2/12;
+    display: inline;
+}
+img{
+    grid-row: 3/8;
+    grid-column: 2/6;
+    height: auto;
+    max-width: 100%;
+
+}
+.profile-text{
+    grid-row: 3/8;
+    grid-column: 6/10;
+}
+.design-philosophy{
+    margin:auto;
+    padding:100px;
+    grid-row:8/11;
+    grid-column:2/12;
+    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(imgs/sunset.png);
+    background-size: cover;
+    background-position: 0% 60%;
+    background-color: #eaf6ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: "atrament", sans-serif;
+    font-size: 256px;
+    display:inline;
+    font-weight:normal;
+}
+h2{
+    font-family: "atrament", sans-serif;
+    font-size:144px;
+    display:inline;
+}
+h3{
+    font-family: "atrament", sans-serif;
+    font-size:128px;
+    font-weight:normal;
+    display:inline;
+}
+h4{
+    font-family: "atrament", sans-serif;
+    font-size:64px;
+    font-weight:normal;
+    display:inline;
+}
+
+h5{
+    font-family: "atrament", sans-serif;
+    font-size:32px;
+    font-weight:normal;
+    display:inline;
+}
+h5{
+    font-family: "atrament", sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    display:inline;
+}
+
+p{
+    font-family: "bonnie", sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    display:inline;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns: repeat(12,0.5fr);
+    grid-template-rows: repeat(15,0.5fr);
+    gap: 10px;
+}
+a{
+    font-family: "atrament", sans-serif;
+    font-size:32px;
+    font-weight:normal;
+    text-decoration: none;
+    color:black
+}
+a:hover{
+color: #ff982b
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: #FFCF88;
+    text-align: center;
+    line-height:3;
+
+    position:fixed;
+}
+.nav-links{
+    overflow:auto;
+}
+
+.nav-links a{
+    width: 20%;
+    float:left;
+}
